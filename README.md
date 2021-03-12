@@ -1,2 +1,3 @@
 # git_github_usage
- git how to  use github 
+descripation:this is repo for testing remote repo of git
+ 
