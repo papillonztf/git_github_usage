@@ -170,6 +170,10 @@ git commit -a -m "#inserted file:readme.md"
 
 # git连接github远程仓库
 > git 关联github上的远程仓库：
+    " 确保本机和github服务器能ssh通信
+    ssh-keygen -t rsa -C "zitenfe@163.com" "在～/.ssh目录下生成rsa公钥和私钥
+    将上述公钥复制到github--setting--ssh key 内 "以便实现身份验证(本机能远程访问本人github帐号的仓库)和加密通信
+    ssh -T git@github.com "测试远端github服务器的ssh连通性，选yes。
 方法1：
     git init gitusage_github "本地仓库名
     git config user.name "coast"
