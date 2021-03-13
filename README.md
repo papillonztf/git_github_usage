@@ -1,4 +1,2 @@
-git  
-git
-github  
-F
++github
+
